@@ -47,9 +47,9 @@ def question_one_a():
 #     create an infinite recursion that never stops running because that
 #     will cause the build in GitHub Actions to never stop running
 # --> You can use these example outputs when you are implementing the function:
-#     3 * 2 * 1 = 6
-#     4 * 3 * 2 * 1 = 24
-#     5 * 4 * 3 * 2 * 1 = 120
+#     Input: 3, Calculation: 3 * 2 * 1 = 6, Output: 6
+#     Input: 4, Calculation: 4 * 3 * 2 * 1 = 24, Output: 24
+#     Input: 5, Calculation: 5 * 4 * 3 * 2 * 1 = 120, Output: 120
 
 
 def compute_recursive_factorial(value: int) -> int:
